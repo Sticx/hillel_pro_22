@@ -1,0 +1,25 @@
+{
+  "name": "hillel_pro_22",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build:js": "gulp js:build",
+    "build:scss": "gulp scss:build",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  }
+}
